@@ -1,42 +1,41 @@
 {
-  "name": "client",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^12.0.0",
-    "@testing-library/user-event": "^13.2.1",
-    "axios": "^0.26.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "stream-chat": "^6.1.0",
-    "stream-chat-react": "^7.0.0",
-    "universal-cookie": "^4.0.4",
-    "web-vitals": "^2.1.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+	"name": "xdg-basedir",
+	"version": "4.0.0",
+	"description": "Get XDG Base Directory paths",
+	"license": "MIT",
+	"repository": "sindresorhus/xdg-basedir",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava && tsd"
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"keywords": [
+		"xdg",
+		"base",
+		"directory",
+		"basedir",
+		"path",
+		"data",
+		"config",
+		"cache",
+		"linux",
+		"unix",
+		"spec"
+	],
+	"devDependencies": {
+		"ava": "^1.4.1",
+		"import-fresh": "^3.0.0",
+		"tsd": "^0.7.2",
+		"xo": "^0.24.0"
+	}
 }
